@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
     for (let i = 0; i < strParents.length; i++) {
         const str = strParents[i].innerHTML;
         if (windowInnerWidth <= 425) {
-            strParents[i].innerHTML = str.substr(0, 280);
+            strParents[i].innerHTML = str.substr(0, 250);
         } else if (windowInnerWidth <= 992) {
             strParents[i].innerHTML = str.substr(0, 700);
         } else if (windowInnerWidth <= 1200) {
